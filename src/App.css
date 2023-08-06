@@ -1,38 +1,98 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;300;400;500;700;800;900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App{
+  min-height: 100vh;
+  background-color: #2C2C2C;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  padding-bottom: 4rem;
+  text-align: center;
+  overflow: hidden;
+}
+
+.headline{
+  font-family: 'Gill Sans MT';
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  /* line-height: 20px; */
+  color: #fff;
+  margin: 2rem 0;
+}
+
+.FlexContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 80px;
+}
+.flex-items{
+  width: 18.5rem;
+  height: 21.375rem;
+  /* -webkit-border-radius: 20px; */
+  border-radius: 20px;
+  background: #2C2C2C;
+  /* -webkit-box-shadow: 5px 5px 5px #c4cbde, -5px -5px 5px #dee5fa; */
+  box-shadow: 4px 4px 10px 4px rgba(20, 20, 20, 0.40), -4px -4px 6px 2px rgba(66, 66, 66, 0.40);
+  font-family: 'Alegreya Sans', sans-serif;
+  color: #FFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 15px;
+  padding: 20px;
+  transition: 1s ease;
+}
+
+.flex-items:hover{
+  background: linear-gradient(88deg, rgba(251,128,32,1) 30%, rgba(255,29,110,1) 100%);
+  box-shadow: none;
+}
+.flex-items span{
+  display:block;
+  width:100% ;
+  border-top: 2px solid #fff;
+}
+
+.vetor-image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #fff;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.title{
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.content{
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  text-align: left;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.read-more{
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.icons{
+  color: #2C2C2C;
+  font-size: x-large;
 }
