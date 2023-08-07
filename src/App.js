@@ -23,7 +23,7 @@ function App() {
                 </div>
                 <p className='title'>Web Development</p>
                 <span></span>
-                <p className='content'>We create responsive, user-friendly websites that combine stunning design with robust functionality.</p>
+                <p className='content'>From concept to launch, our skilled app development team crafts seamless and innovative mobile and web applications ....</p>
                 <p className="read-more">Read More</p>
               </div>
             <div className='flex-items three'>
